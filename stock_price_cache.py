@@ -1,3 +1,7 @@
+# This code enables the automated maintenance of daily updates to a local stock price repository.
+# Source:  https://medium.com/financeexplained/learn-to-build-your-own-historical-stock-price-data-sets-2495f8a23d11
+#
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import ssl, re, datetime, pandas as pd
