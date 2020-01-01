@@ -1,6 +1,8 @@
 # ETF Replicator Research
 
-[This notebook](./etf-replicate.ipynb) presents the basis for ETF research using actual data.
+[etf-replicate](./etf-replicate.ipynb) pulls the composition of ETFs from Barchart.com, parses using BeautifulSoup, pulls additional data from IEX, then simulates portfolio and measures how well it tracks a reference ETF. 
+
+Contains useful code for these steps.
 
 ## Prerequisite
 
